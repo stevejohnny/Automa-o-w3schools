@@ -1,0 +1,233 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-17T14:40:47.967Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2427000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.BaseTest.before()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "",
+        "description": "",
+        "id": "intera��o-com-o-bot�o-open-modal;",
+        "after": [
+          {
+            "result": {
+              "duration": 700000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.BaseTest.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2446000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que eu acesse a url \"https://www.w3schools.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.w3schools.com/\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.NavegationStep.que_eu_acesse_a_url(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1290000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "navegue pelo menu principal em Tutorials \u003e\u003e Learn How To",
+            "match": {
+              "location": "steps.NavegationStep.navegue_pelo_menu_principal_em_tutorials_learn_how_to()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 522000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "navegue pelo menu lateral em More \u003e\u003e Modal Boxes",
+            "match": {
+              "location": "steps.NavegationStep.navegue_pelo_menu_lateral_em_more_modal_boxes()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 145000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clico em Open modal",
+            "match": {
+              "location": "steps.NavegationStep.clico_em_open_modal()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 95000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Modal ficará visível",
+            "match": {
+              "location": "steps.NavegationStep.modal_ficará_visível()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@teste"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-17T14:40:55.677Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1594000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.BaseTest.before()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "",
+        "description": "",
+        "id": "intera��o-com-o-bot�o-open-modal;",
+        "after": [
+          {
+            "result": {
+              "duration": 703000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.BaseTest.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2312000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "que eu acesse a url \"https://www.w3schools.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.w3schools.com/\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.NavegationStep.que_eu_acesse_a_url(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1231000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "navegue pelo menu principal em Tutorials \u003e\u003e Learn How To",
+            "match": {
+              "location": "steps.NavegationStep.navegue_pelo_menu_principal_em_tutorials_learn_how_to()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 471000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "navegue pelo menu lateral em More \u003e\u003e Modal Boxes",
+            "match": {
+              "location": "steps.NavegationStep.navegue_pelo_menu_lateral_em_more_modal_boxes()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 155000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "clico em Open modal",
+            "match": {
+              "location": "steps.NavegationStep.clico_em_open_modal()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 707000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "clico em fechar o modal",
+            "match": {
+              "location": "steps.NavegationStep.clico_em_fechar_o_modal()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 112000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Modal não ficará mais visível",
+            "match": {
+              "location": "steps.NavegationStep.modal_não_ficará_mais_visível()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@teste"
+          }
+        ]
+      }
+    ],
+    "name": "Intera��o com o Bot�o Open modal",
+    "description": "",
+    "id": "intera��o-com-o-bot�o-open-modal",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/CN001-Intera%C3%A7%C3%A3o_modal_open_modal.feature",
+    "tags": []
+  }
+]
